@@ -25,11 +25,16 @@
         $this->kecepatan += $kecepatan;
         return "Kecepatan mobil sekarang adalah {$this->kecepatan} km/jam.";
     }
+
+    
+    function apaya($gaktau) {
+        return "ini coba $gaktau";
+    }
 }
 
 $mobil1 = new Kendaraan("Merah", "Toyota", 2020, 300000000, 0);
 echo $mobil1->info();
 echo $mobil1->tambahKecepatan(400);
 
-$mobil1 = new Kendaraan("Merah", "Honda", 2020, 300000000, 0);
-?>
+$mobil1 = new Kendaraan("Merah", "Honda", 2021, 300000000, 0);
+
