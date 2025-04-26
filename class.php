@@ -38,3 +38,4 @@ echo $mobil1->tambahKecepatan(400);
 
 $mobil1 = new Kendaraan("Merah", "Honda", 2021, 300000000, 0);
 
+trallaler tralalal 
